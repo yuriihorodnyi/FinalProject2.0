@@ -170,15 +170,11 @@ a:focus {
 }
 
 .intro .slogan {
-	text-align: center;
+    text-align: center;
 }
 
 .intro .page-scroll {
 	text-align: center;
-}
-
-.brand-heading {
-    font-size: 40px;
 }
 
 .intro-text {
@@ -206,6 +202,7 @@ a:focus {
 	text-shadow: -1px 1px 1px #000;
 }
 
+
 @media (max-width: 768px) {
   .intro .slogan h2 {
     font-size: 48px;
@@ -217,6 +214,39 @@ a:focus {
     font-size: 36px;
   }
 }
+
+/* ===========================
+--- About
+============================ */
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+
+   .about img{
+    height: 33vh;
+       width: 33vh;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid rgb(0, 0, 0);
+   }
+   .about .desc h3{
+    color: rgb(0, 0, 0);
+   }
+   .about .desc p{
+    line-height:2;
+    color:rgb(0, 0, 0);
+   }
 
 /* ===========================
 --- Footer
