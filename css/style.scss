@@ -1,0 +1,44 @@
+header {
+
+    h1 {
+      color: white;
+      margin-top: 33vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    h2 {
+      color: white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+}
+
+.header-main {
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
+.buttons {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 25vh;
+}
+
+.header-order {
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  min-height: 30vh;
+  overflow: hidden;
+}
+
+.order-form {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}

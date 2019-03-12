@@ -1,0 +1,26 @@
+
+a.btn:hover {
+	color: #000000;
+}
+.top-nav-collapse {
+	background: #000000;
+}
+
+@media (max-width: 768px) {
+  .navbar, .navbar-nav {
+		background: #000000 !important;
+	}
+
+	.navbar-nav a {
+		color: #fff !important;
+	}
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #000000;
+}
+
+footer {
+    background-color: #000000;
+}
+
