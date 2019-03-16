@@ -12,33 +12,14 @@
   });
 
   //jQuery for page scrolling feature - requires jQuery Easing plugin
-  $(function() {
-
-    $('.navbar-nav li a').on('click', function(event) {
-
-      if ($(this).is('a:not([href^="#"])') || $(this).attr("href") == '#') {
-        return;
-      }
-      var $anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top-($('ul').height()+ 50)
-      }, 1500, 'easeInOutExpo');
-      event.preventDefault();
+  
+	$(document).ready(function(){
+        $("#menu").on("click","a", function (event) {     //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),    //узнаем высоту от начала страницы до блока на который ссылается якорь
+                top = $(id).offset().top;     //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
     });
-
-    $('.page-scroll a').on('click', function(event) {
-      var $anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top
-      }, 1500, 'easeInOutExpo');
-      event.preventDefault();
-    });
-
-  });
-	
-	var navMain = $(".navbar-collapse");
-	navMain.on("click", "a:not([data-toggle])", null, function () {
-	   navMain.collapse('hide');
-	});
-
+    
 })(jQuery);

@@ -34,19 +34,19 @@
 				</div>
 		
 <!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<div id="menu" class="collapse navbar-collapse navbar-right navbar-main-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#intro">Головна</a></li>
-						<li><a href="#about">Про нас</a></li>
-						<li><a href="#services">Види послуг</a></li>
-						<li><a href="#portfolio">Портфоліо</a></li>
-						<li><a href="#price">Розрахунок вартості</a></li>
+						<li><a href="#intro" class="flowing-scroll">Головна</a></li>
+						<li><a href="#about" class="flowing-scroll">Про нас</a></li>
+						<li><a href="#services" class="flowing-scroll">Види послуг</a></li>
+						<li><a href="#portfolio" class="flowing-scroll">Портфоліо</a></li>
+						<li><a href="#price" class="flowing-scroll">Розрахунок вартості</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Інше <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="Order.html">Оформлення замовлення</a></li>
 								<li><a href="#">Резюме</a></li>
-								<li><a href="#">Контакти</a></li>
+								<li><a href="#footer">Контакти</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -240,10 +240,10 @@
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Оформлення замовлення</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
+										<span aria-hidden="true">&times;</span>
 							</button>
+							<h5 class="modal-title" id="exampleModalLabel">Оформлення замовлення</h5>
 						</div>
 						<div class="modal-body">
 							<form action="/php/telegram.php" method="POST" class="form" role="form" autocomplete="off">
@@ -266,48 +266,20 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Номер телефона</label>
+									<label class="col-lg-3 col-form-label form-control-label">Номер телефону</label>
 									<div class="col-lg-9">
 										<input class="form-control" type="tel" name="user_phone" value="+ 380 98 000 00 00">
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Компанія</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="text" name="user_company" value="">
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Сайт</label>
-									<div class="col-lg-9">
-										<input class="form-control" type="url" name="user_site" value="">
-									</div>
-								</div>
-								<div class="form-group row">
-									<label class="col-lg-3 col-form-label form-control-label">Вид послуги</label>
-									<div class="col-lg-9">
-										<select id="user_time_zone" class="form-control" name="user_order" size="0">
-											<option value="Веб-дизайн">Веб-дизайн</option>
-											<option value="Веб-розробка">Веб-розробка</option>
-											<option value="Маркетинг">Маркетинг</option>
-											<option value="Маркетинг">Комплекс</option>
-										</select>
 									</div>
 								</div>
 								<div class="form-group row">
 									<label class="col-lg-3 col-form-label form-control-label">Додаткова інформація</label>
 									<div class="col-lg-9">
 										<textarea class="form-control" name="user_text" id="validationTextarea" placeholder="Опис"></textarea>
-										<div class="invalid-feedback">
-											Please enter a message in the textarea.
-										</div>
 									</div>
 								</div>
 								<div class="modal-footer">
-									<label class="col-lg-3 col-form-label form-control-label"></label>
-									<input type="button" class="btn btn-secondary" value="Закрити" data-dismiss="modal">
-									<label class="col-lg-3 col-form-label form-control-label"></label>
-									<input type="submit" class="btn btn-primary" value="Відправити">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+									<button type="submit" class="btn btn-primary">Відправити</button>
 								</div>
 							</form>
 						</div>
@@ -318,7 +290,7 @@
 	</main>
 
 		<!-- Футер -->
-	<footer class="page-footer font-small blue pt-4">
+	<footer class="page-footer font-small blue pt-4" id="footer">
 		<div class="container text-center text-md-left">
 			<div class="row">
 				<div class="col-md-6 mt-md-0 mt-3">
@@ -370,7 +342,6 @@
 	 <script src="js/jquery.min.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
 	 <script src="js/jquery.easing.min.js"></script>
-	 <script src="js/jquery.scrollTo.js"></script>
 	 <script src="js/wow.min.js"></script>
 	 <!-- Custom Theme JavaScript -->
 	 <script src="js/custom.js"></script>
