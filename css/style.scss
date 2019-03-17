@@ -242,7 +242,14 @@ a {
 /* ===========================
 --- Услуги
 ============================ */
-.services1{
+.services1 {
+	wide: 100%;
+	background-color: #000;
+
+	h2, h4 {
+		color: #FFF;
+		}
+
 	span{
 		font-size:15px;
 	}
@@ -269,6 +276,15 @@ a {
 ============================ */
 .gallery_product {
     margin-bottom: 30px;
+}
+
+.portfolio-bg	{
+	wide: 100%;
+	background-color: #000;
+	padding-top: 15px;
+	h2, h4 {
+		color: #FFF;
+	}
 }
 
 

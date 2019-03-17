@@ -252,6 +252,15 @@ a:hover, a:focus {
 /* ===========================
 --- Услуги
 ============================ */
+.services1 {
+  wide: 100%;
+  background-color: #000;
+}
+
+.services1 h2, .services1 h4 {
+  color: #FFF;
+}
+
 .services1 span {
   font-size: 15px;
 }
@@ -280,6 +289,16 @@ a:hover, a:focus {
 ============================ */
 .gallery_product {
   margin-bottom: 30px;
+}
+
+.portfolio-bg {
+  wide: 100%;
+  background-color: #000;
+  padding-top: 15px;
+}
+
+.portfolio-bg h2, .portfolio-bg h4 {
+  color: #FFF;
 }
 
 /* ===========================
