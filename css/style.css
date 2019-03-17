@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==== Google font ==== */
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic");
 body {
@@ -249,6 +250,32 @@ a:hover, a:focus {
 }
 
 /* ===========================
+--- Услуги
+============================ */
+.services1 span {
+  font-size: 15px;
+}
+
+.services1 .box {
+  padding: 60px 0px;
+}
+
+.services1 .box-part {
+  background: #FFF;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+}
+
+.services1 .text {
+  margin: 20px 0px;
+}
+
+.services1 .fa {
+  color: #4183D7;
+}
+
+/* ===========================
 --- Galery
 ============================ */
 .gallery_product {
@@ -356,7 +383,7 @@ footer a {
 }
 
 footer i {
-  font-weight: 700;
+  font-size: 20px;
 }
 
 footer span {

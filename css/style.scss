@@ -238,6 +238,32 @@ a {
 		}
 	}
 }
+
+/* ===========================
+--- Услуги
+============================ */
+.services1{
+	span{
+		font-size:15px;
+	}
+	.box{
+		padding:60px 0px;
+	}
+	.box-part{
+		background:#FFF;
+		border-radius:0;
+		padding:60px 10px;
+		margin:30px 0px;
+	}
+	.text{
+		margin:20px 0px;
+	}
+
+	.fa{
+		 color:#4183D7;
+	}
+}
+
 /* ===========================
 --- Galery
 ============================ */
@@ -338,7 +364,7 @@ footer {
 		font-family: 'Lato',sans-serif;
 	}
 	i {
-		font-weight: 700;
+		font-size: 20px;
 	}
 	span {
 		color: #f8f8f8;
