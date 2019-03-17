@@ -22,6 +22,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
+h2 {
+  color: #000;
+  text-align: center;
+  margin-top: 70px;
+}
+
+h4 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 p {
   margin: 0 0 20px;
   font-size: 16px;
@@ -29,7 +41,7 @@ p {
 }
 
 a {
-  color: #28c3ab;
+  color: #e9e9e9;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
@@ -335,6 +347,19 @@ footer {
 }
 
 footer p {
+  color: #f8f8f8;
+  font-size: 14px;
+}
+
+footer a {
+  font-family: 'Lato',sans-serif;
+}
+
+footer i {
+  font-weight: 700;
+}
+
+footer span {
   color: #f8f8f8;
 }
 
