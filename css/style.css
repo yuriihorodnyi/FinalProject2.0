@@ -263,6 +263,12 @@ a:hover, a:focus {
 
 .services1 span {
   font-size: 15px;
+  font-family: 'Lato',sans-serif;
+}
+
+.services1 .title h4 {
+  color: #000;
+  margin-top: 20px;
 }
 
 .services1 .box {
@@ -284,6 +290,10 @@ a:hover, a:focus {
   color: #4183D7;
 }
 
+.services1 .mar-bot {
+  margin-bottom: 150px;
+}
+
 /* ===========================
 --- Galery
 ============================ */
@@ -294,7 +304,11 @@ a:hover, a:focus {
 .portfolio-bg {
   wide: 100%;
   background-color: #000;
-  padding-top: 15px;
+  padding-top: 1px;
+}
+
+.mar-bot {
+  margin-bottom: 150px;
 }
 
 .portfolio-bg h2, .portfolio-bg h4 {
@@ -310,7 +324,7 @@ a:hover, a:focus {
   margin-bottom: 50px;
   padding: 30px 20px;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
 }
 
 .single-service h4 {
@@ -343,6 +357,10 @@ a:hover, a:focus {
   color: #fff;
   border-color: black;
   border-radius: 0;
+}
+
+.single-service .mar-bot {
+  margin-bottom: 100px;
 }
 
 /* ===========================
