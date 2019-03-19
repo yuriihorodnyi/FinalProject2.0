@@ -7,9 +7,6 @@ $name = $_POST['user_name'];
 $surname = $_POST['user_surname'];
 $email = $_POST['user_email'];
 $phone = $_POST['user_phone'];
-$company = $_POST['user_company'];
-$website = $_POST['user_website'];
-$order = $_POST['user_order'];
 $text = $_POST['user_text'];
 $token = "755661398:AAECNAPJMDB5r9YDmGOIUxrnRi_H8l-gJX0";
 $chat_id = "-318750026";
@@ -18,9 +15,6 @@ $arr = array(
   'Прізвище' => $surname,
   'Email' => $email,
   'Телефон: ' => $phone,
-  'Компанія' => $company,
-  'Веб-сайт' => $website,
-  'Вид послуги' => $order,
   'Опис' => $text
 );
 

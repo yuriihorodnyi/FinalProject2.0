@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* ==== Google font ==== */
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&subset=cyrillic|Montserrat:700|Merriweather:400italic");
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #666;
   background-color: #fff;
@@ -263,7 +263,6 @@ a:hover, a:focus {
 
 .services1 span {
   font-size: 15px;
-  font-family: 'Lato',sans-serif;
 }
 
 .services1 .title h4 {
@@ -284,6 +283,7 @@ a:hover, a:focus {
 
 .services1 .text {
   margin: 20px 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .services1 .fa {
@@ -416,7 +416,7 @@ footer p {
 }
 
 footer a {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer i {
