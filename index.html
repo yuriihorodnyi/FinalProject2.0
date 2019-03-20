@@ -38,12 +38,12 @@
 						<li><a href="#intro" class="flowing-scroll">Головна</a></li>
 						<li><a href="#about" class="flowing-scroll">Про нас</a></li>
 						<li><a href="#services" class="flowing-scroll">Види послуг</a></li>
+						<li><a href="#advantages" class="flowing-scroll">Наші переваги</a></li>
 						<li><a href="#portfolio" class="flowing-scroll">Портфоліо</a></li>
-						<li><a href="#price" class="flowing-scroll">Розрахунок вартості</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Інше <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="Order.html">Оформлення замовлення</a></li>
+								<li><a href="#exampleModal" data-toggle="modal" data-target="#exampleModal">Оформлення замовлення</a></li>
 								<li><a href="#">Резюме</a></li>
 								<li><a href="#footer">Контакти</a></li>
 							</ul>
@@ -63,7 +63,7 @@
 					<h4>Веб-дизайн. Веб-розробка. Маркетинг</h4>
 				</div>
 				<div class="page-scroll">
-					<a href="#services" class="btn btn-circle">
+					<a href="#services" class="btn btn-circle flowing-scroll">
 						<i class="fa fa-angle-double-down animated"></i>
 					</a>
 				</div>
@@ -73,13 +73,14 @@
 	
 	<main>
 		<!-- Про компанію -->
-		<div class="container">
-			<div class="row about" id="about">
+		<div class="container" id="about">
+			<h2>Про нас</h2>
+			<h4>Коротко про нашу компанію</h4>
+			<div class="row about">
 				<div class="col-lg-4 col-md-4 col-sm-12">
 				 <img align="center" src="img/logo.jpg" class="img-fluid">
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-12 desc">
-				 <h3>Про нашу компанію</h3>
 				 <p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam inventore facere dignissimos 	dolorem labore pariatur totam unde nobis! Corporis ullam rem doloribus commodi. Alias ratione, 	cupiditate voluptatibus reiciendis in repellendus, inventore maxime ex sed quasi eius rerum quibusdam 	ea consequatur perspiciatis incidunt itaque nemo illo vel distinctio. Nulla, quaerat reiciendis.
 				 </p>
@@ -87,62 +88,64 @@
 			</div>
 		</div>
 <!-- Услуги -->
-		<div class="box services1">
-			<div class="container">
-				<h2>Наші послуги</h2>
-				<h4>В нас ви можете замовити послуги у таких сферах</h4>
-				 	<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<div class="box-part text-center">			
-								<img src="/img/icons/Design_48px.png" alt="">		
+		<section id="services">
+			<div class="box services1">
+				<div class="container">
+					<h2>Наші послуги</h2>
+					<h4>В нас ви можете замовити послуги у таких сферах</h4>
+					 	<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="box-part text-center">			
+									<img src="/img/icons/Design_48px.png" alt="">		
+									<div class="title">
+										<h4>Веб-дизайн</h4>
+									</div>						
+									<div class="text">
+										<span>Створення прототипу</span><hr>
+										<span>Дизайн landing-page</span><hr>
+										<span>Дизайн багатосторінкових сайтів</span><hr>
+										<span>Створення фірмового стилю</span><hr>
+										<span>Розробка логотипу</span>
+									</div>												
+							 </div>
+						</div>	 
+						 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">		 
+							<div class="box-part text-center">	
+								<img src="/img/icons/Code_48px.png" alt="">			
 								<div class="title">
-									<h4>Веб-дизайн</h4>
+									<h4>Веб-розробка</h4>
 								</div>						
 								<div class="text">
-									<span>Створення прототипу</span><hr>
-									<span>Дизайн landing-page</span><hr>
-									<span>Дизайн багатосторінкових сайтів</span><hr>
-									<span>Створення фірмового стилю</span><hr>
-									<span>Розробка логотипу</span>
-								</div>												
+									<span>Сайт-візитка</span><hr>
+									<span>Landing-page</span><hr>
+									<span>Інтернет-магазин</span><hr>
+									<span>Корпоративний сайт</span><hr>
+									<span>Сайт на CMS</span>
+								</div>									
 						 </div>
-					</div>	 
-					 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">		 
-						<div class="box-part text-center">	
-							<img src="/img/icons/Code_48px.png" alt="">			
-							<div class="title">
-								<h4>Веб-розробка</h4>
-							</div>						
-							<div class="text">
-								<span>Сайт-візитка</span><hr>
-								<span>Landing-page</span><hr>
-								<span>Інтернет-магазин</span><hr>
-								<span>Корпоративний сайт</span><hr>
-								<span>Сайт на CMS</span>
-							</div>									
-					 </div>
-					</div>	 
-					 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">		 
-						<div class="box-part text-center mar-bot">
-							<img src="/img/icons/Increase_48px.png" alt="">		
-							<div class="title">
-								<h4>Маркетинг</h4>
-							</div>					
-							<div class="text">
-								<span>Веб-аналітика</span><hr>
-								<span>Пошуковий маркетинг</span><hr>
-								<span>Таргетинг</span><hr>
-								<span>SEO Оптимизация</span><hr>
-								<span>Емейл маркетинг</span>
-							</div>									
-						</div>
-					</div>	 
-			</div>		
+						</div>	 
+						 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">		 
+							<div class="box-part text-center mar-bot">
+								<img src="/img/icons/Increase_48px.png" alt="">		
+								<div class="title">
+									<h4>Маркетинг</h4>
+								</div>					
+								<div class="text">
+									<span>Веб-аналітика</span><hr>
+									<span>Пошуковий маркетинг</span><hr>
+									<span>Таргетинг</span><hr>
+									<span>SEO Оптимизация</span><hr>
+									<span>Емейл маркетинг</span>
+								</div>									
+							</div>
+						</div>	 
+				</div>		
+			</div>
 		</div>
-	</div>
+	</section>
 
 <!-- Види послуг -->
-		<section class="services" id="services">
+		<section class="services" id="advantages">
 			<div class="container">
 				<h2>Наші переваги</h2>
 				<h4>Чому саме наша компанія</h4>
@@ -151,48 +154,48 @@
 <!-- Single Service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Досвід роботи</h4>
+								<p>Наша компанія успішно працює і розвивається протягом 5 років. За цей час ми успішно закінчили більше 200 проектів.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6">
 <!-- Single Service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Індивідуальний підхід</h4>
+								<p>З кожним клієнтом ми працюємо індивідуально, для досягнення максимальних результатів у розвитку Вашого бізнесу.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6">
  <!-- Single Service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Найновіші технології</h4>
+								<p>Наша команда завжди використовує найновіші тренди та технології для досягнення найкращих результатів.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6">
 <!-- Single Service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Підтримка 24/7</h4>
+								<p>Наші послуги доступні цілодобово, Ви ніколи не залишитесь без нашої підтримки в важливий для Вас момент.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6">
 <!-- Single Service -->
 							<div class="single-service">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Аналіз конкурентів</h4>
+								<p>Перед початком роботи, ми проводимо аналіз Ваших конкурентів, і втілюємо тільки найкращі рішення у Вашому проекті.</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 mar-bot">
 <!-- Single Service -->
 							<div class="single-service mar-bot">
 								<i class="fa fa-laptop"></i>
-								<h4>Web Design</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+								<h4>Комплекс послуг</h4>
+								<p>У нас Ви можете замовити всі види послуг, які потрібні зростання Вашого бізнесу в мережі інтернет.</p>
 							</div>
 						</div>
 					</div>
@@ -207,27 +210,27 @@
 				<h4>Галерея наших робіт</h4>
 	 			<div class="container" id="portfolio">
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/36/66/3565201.jpg?mt=9bfcd034" 	class="img-responsive">
 					</div>
 
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/36/A8/3582162.jpg?mt=415a39ba" 	class="img-responsive">
 					</div>
 
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/2F/7D/3112223.jpg?mt=24279e45" 	class="img-responsive">
 					</div>
 
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/36/60/3563725.jpg?mt=a9575514" 	class="img-responsive">
 					</div>
 
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/31/3F/3227426.jpg?mt=51d80db0" 	class="img-responsive">
 					</div>
 
 					<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 mar-bot">
-						<img src="http://volkovsergei.ru/wp-content/uploads/2017/01/portfolio-365x365.jpg" 	class="img-responsive">
+						<img src="https://cdn.freelance.ru/img/portfolio/pics/00/35/FF/3538853.jpg?mt=307812e9" 	class="img-responsive">
 					</div>
 				</div>
 			</div>
