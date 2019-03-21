@@ -1,5 +1,3 @@
-
-/* ==== Google font ==== */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&subset=cyrillic|Montserrat:700|Merriweather:400italic');
 
 body {
@@ -52,6 +50,9 @@ a {
   }
 }
 
+/* ===========================
+--- Навбар
+============================ */
 .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -147,9 +148,8 @@ a {
 }
 
 /* ===========================
---- Intro
+--- Інтро
 ============================ */
-
 .intro {
   width: 100%;
   position: relative;
@@ -195,22 +195,10 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  .intro .slogan h2 {
-    font-size: 48px;
-  }
-}
-
-@media (max-width: 600px) {
-  .intro .slogan h2 {
-    font-size: 36px;
-  }
-}
 
 /* ===========================
---- About
+--- Про нас
 ============================ */
-
 .about {
   margin-bottom: 150px;
   padding: 1em;
@@ -240,9 +228,8 @@ a {
 }
 
 /* ===========================
---- Услуги
+--- Послуги
 ============================ */
-
 .services1 {
   background-color: #000;
   h2, h4 {
@@ -280,9 +267,8 @@ a {
 }
 
 /* ===========================
---- Galery
+--- Портфоліо
 ============================ */
-
 .gallery_product {
   margin-bottom: 30px;
 }
@@ -303,10 +289,10 @@ a {
 }
 
 /* ===========================
---- Services
+--- Переваги
 ============================ */
-
 .single-service {
+  min-height: 315px;
   position: relative;
   text-align: center;
   margin-bottom: 50px;
@@ -346,16 +332,10 @@ a {
   }
 }
 
-/* ===========================
---- How to
-============================ */
-
-
 
 /* ===========================
---- Modal
+--- Модальне вікно
 ============================ */
-
 .modal {
   overflow: hidden;
 }
@@ -366,10 +346,10 @@ a {
   background-color: rgb(0, 119, 255) !important;
     border-color: #0088ff;
 }
-/* ===========================
---- Footer
-============================ */
 
+/* ===========================
+--- Футер
+============================ */
 footer {
   h5>a {
     text-decoration: underline;
@@ -392,9 +372,8 @@ footer {
 }
 
 /* ===========================
---- Icons
+--- Іконки
 ============================ */
-
 .icons {
   height: 10vh;
 }
@@ -402,9 +381,8 @@ footer {
 
 
 /* ===========================
---- Elements
+--- Кнопка
 ============================ */
-
 .btn {
   border-radius: 0;
   text-transform: uppercase;
@@ -442,7 +420,9 @@ footer {
   }
 }
 
-/* Media queries */
+/* ===========================
+--- Медіа
+============================ */
 @media (min-width: 767px) {
   .navbar {
     padding: 20px 0;
@@ -469,6 +449,9 @@ footer {
   .intro-text {
     font-size: 25px;
   }
+  .intro .slogan h2 {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -486,6 +469,12 @@ footer {
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro .slogan h2 {
+    font-size: 36px;
   }
 }
 

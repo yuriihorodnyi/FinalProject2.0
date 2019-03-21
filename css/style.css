@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* ==== Google font ==== */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&subset=cyrillic|Montserrat:700|Merriweather:400italic");
 body {
   width: 100%;
@@ -52,6 +51,9 @@ a:hover, a:focus {
   color: #176e61;
 }
 
+/* ===========================
+--- Навбар
+============================ */
 .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -157,7 +159,7 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Intro
+--- Інтро
 ============================ */
 .intro {
   width: 100%;
@@ -201,20 +203,8 @@ a:hover, a:focus {
   text-shadow: -1px 1px 1px #000;
 }
 
-@media (max-width: 768px) {
-  .intro .slogan h2 {
-    font-size: 48px;
-  }
-}
-
-@media (max-width: 600px) {
-  .intro .slogan h2 {
-    font-size: 36px;
-  }
-}
-
 /* ===========================
---- About
+--- Про нас
 ============================ */
 .about {
   margin-bottom: 150px;
@@ -250,7 +240,7 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Услуги
+--- Послуги
 ============================ */
 .services1 {
   background-color: #000;
@@ -294,7 +284,7 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Galery
+--- Портфоліо
 ============================ */
 .gallery_product {
   margin-bottom: 30px;
@@ -314,9 +304,10 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Services
+--- Переваги
 ============================ */
 .single-service {
+  min-height: 315px;
   position: relative;
   text-align: center;
   margin-bottom: 50px;
@@ -362,10 +353,7 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- How to
-============================ */
-/* ===========================
---- Modal
+--- Модальне вікно
 ============================ */
 .modal {
   overflow: hidden;
@@ -381,7 +369,7 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Footer
+--- Футер
 ============================ */
 footer {
   text-align: center;
@@ -410,14 +398,14 @@ footer span {
 }
 
 /* ===========================
---- Icons
+--- Іконки
 ============================ */
 .icons {
   height: 10vh;
 }
 
 /* ===========================
---- Elements
+--- Кнопка
 ============================ */
 .btn {
   border-radius: 0;
@@ -459,7 +447,9 @@ footer span {
   color: #999;
 }
 
-/* Media queries */
+/* ===========================
+--- Медіа
+============================ */
 @media (min-width: 767px) {
   .navbar {
     padding: 20px 0;
@@ -486,6 +476,9 @@ footer span {
   .intro-text {
     font-size: 25px;
   }
+  .intro .slogan h2 {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -503,6 +496,12 @@ footer span {
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro .slogan h2 {
+    font-size: 36px;
   }
 }
 /*# sourceMappingURL=style.css.map */
