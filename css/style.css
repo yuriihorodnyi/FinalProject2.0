@@ -217,14 +217,14 @@ a:hover, a:focus {
 --- About
 ============================ */
 .about {
-  margin: 4em 0;
+  margin-bottom: 150px;
   padding: 1em;
   position: relative;
 }
 
 .about img {
-  height: 33vh;
-  width: 33vh;
+  height: 28vh;
+  width: 28vh;
   border-radius: 50%;
 }
 
@@ -362,46 +362,22 @@ a:hover, a:focus {
 }
 
 /* ===========================
---- Calculator
+--- How to
 ============================ */
-.price {
-  padding: 20px 20px 0px 20px;
-  min-height: 200px;
-  border-radius: 5px;
-  max-width: 660px;
-  border: 5px solid #fff200;
-  background: #f9f9f9;
-}
-
-.calc_title {
-  font-size: 28px;
-  color: #ee1d25;
-  margin: 0 0 20px;
-}
-
-.result {
-  padding: 20px 0 0;
-  margin: 20px 0;
-  font-size: 24px;
-  border-top: 1px solid #e0e0e0;
-}
-
-span.total {
-  color: #ed1d25;
-}
-
-.calculator input[type="text"], select {
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
 /* ===========================
 --- Modal
 ============================ */
 .modal {
   overflow: hidden;
+}
+
+.button-order {
+  margin-bottom: 100px;
+}
+
+.btn-primary {
+  background-color: #0077ff !important;
+  border-color: #0088ff;
 }
 
 /* ===========================
@@ -410,6 +386,10 @@ span.total {
 footer {
   text-align: center;
   padding: 50px 0;
+}
+
+footer h5 > a {
+  text-decoration: underline;
 }
 
 footer p {
